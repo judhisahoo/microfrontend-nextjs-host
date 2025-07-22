@@ -6,7 +6,7 @@
     "dev": "next dev -p 5000",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx --max-warnings=0",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,css,scss,md,json}\"",
     "prepare": "husky install"
   },
